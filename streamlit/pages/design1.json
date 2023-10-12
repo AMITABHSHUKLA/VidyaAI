@@ -1,0 +1,137 @@
+[
+  {
+    "visId": "gw_SIVQ",
+    "name": "Chart 1",
+    "encodings": {
+      "dimensions": [
+        {
+          "dragId": "gw_THvN",
+          "fid": "GW_6BOPIDRK",
+          "name": "sex",
+          "basename": "sex",
+          "semanticType": "nominal",
+          "analyticType": "dimension"
+        },
+        {
+          "dragId": "gw_RID2",
+          "fid": "GW_1R6WPNO37T7OW",
+          "name": "smoker",
+          "basename": "smoker",
+          "semanticType": "nominal",
+          "analyticType": "dimension"
+        },
+        {
+          "dragId": "gw_6yUN",
+          "fid": "GW_5I24WL68",
+          "name": "day",
+          "basename": "day",
+          "semanticType": "nominal",
+          "analyticType": "dimension"
+        },
+        {
+          "dragId": "gw_2MuI",
+          "fid": "GW_19DCMEDB1S",
+          "name": "time",
+          "basename": "time",
+          "semanticType": "nominal",
+          "analyticType": "dimension"
+        },
+        {
+          "dragId": "gw_HuHQ",
+          "fid": "GW_18ZBM3DZCG",
+          "name": "size",
+          "basename": "size",
+          "semanticType": "ordinal",
+          "analyticType": "dimension"
+        }
+      ],
+      "measures": [
+        {
+          "dragId": "gw_flNe",
+          "fid": "GW_3HRRSA0VIWPA37PHIY8",
+          "name": "total_bill",
+          "basename": "total_bill",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum"
+        },
+        {
+          "dragId": "gw_HOrN",
+          "fid": "GW_6DOU9KQ8",
+          "name": "tip",
+          "basename": "tip",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum"
+        },
+        {
+          "dragId": "gw_count_fid",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          }
+        }
+      ],
+      "rows": [],
+      "columns": [
+        {
+          "dragId": "gw_NuRr",
+          "fid": "GW_1R6WPNO37T7OW",
+          "name": "smoker",
+          "basename": "smoker",
+          "semanticType": "nominal",
+          "analyticType": "dimension"
+        }
+      ],
+      "color": [],
+      "opacity": [],
+      "size": [],
+      "shape": [],
+      "radius": [],
+      "theta": [],
+      "longitude": [],
+      "latitude": [],
+      "geoId": [],
+      "details": [],
+      "filters": [],
+      "text": []
+    },
+    "config": {
+      "defaultAggregated": true,
+      "geoms": [
+        "auto"
+      ],
+      "showTableSummary": false,
+      "coordSystem": "generic",
+      "stack": "stack",
+      "showActions": false,
+      "interactiveScale": false,
+      "sorted": "none",
+      "zeroScale": true,
+      "scaleIncludeUnmatchedChoropleth": false,
+      "size": {
+        "mode": "auto",
+        "width": 320,
+        "height": 200
+      },
+      "format": {},
+      "geoKey": "name",
+      "resolve": {
+        "x": false,
+        "y": false,
+        "color": false,
+        "opacity": false,
+        "shape": false,
+        "size": false
+      },
+      "limit": -1
+    }
+  }
+]

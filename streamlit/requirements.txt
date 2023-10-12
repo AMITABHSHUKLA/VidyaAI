@@ -1,0 +1,15 @@
+pip install streamlit
+pip install langchain[llms]
+pip install openai
+pip install python-dotenv
+pip install pypdf
+pip install tiktoken
+pip install chromadb
+pip install yt_dlp
+pip install pydub
+pip install tempfile
+pip install pandas
+pip install pygwalker
+pip install wolframalpha
+pip install transformers
+
