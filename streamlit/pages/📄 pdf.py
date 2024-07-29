@@ -44,7 +44,7 @@ if file_uploader :
       separator ="\n" ,
       length_function= len)
     docs = c_splitter.split_documents(pages)
-    embedding = OpenAIEmbeddings(openai_api_key="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")
+    embedding = OpenAIEmbeddings(openai_api_key="sk-##OpenAI_apikey##")
     vectordb = Chroma.from_documents(
         documents= docs,
         embedding=embedding,
@@ -55,7 +55,7 @@ if file_uploader :
     def snap(query):
         
         question = query
-        llm_chat = ChatOpenAI(openai_api_key="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", openai_organization="org-JVzRB41h7wqZNEbW4DiJj4kC",model_name="gpt-3.5-turbo",temperature=0)
+        llm_chat = ChatOpenAI(openai_api_key="sk-########", openai_organization="org-JVzRB41h7wqZNEbW4DiJj4kC",model_name="gpt-3.5-turbo",temperature=0)
         retriever=vectordb.as_retriever()
         qa = ConversationalRetrievalChain.from_llm(
             llm_chat,
